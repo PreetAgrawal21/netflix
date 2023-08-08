@@ -14,7 +14,13 @@ class _SplashState extends State<Splash> {
       body: Container(
         color:Colors.black,
         child: Center(
-          child: Image.asset('assets/img/netflix-logo.png'),
+          child: Column(
+            children:<Widget> [
+              Image(
+                image: AssetImage('assets/img/img.png'),
+              ),
+            ],
+          ),
         ),
       ),
     );
